@@ -1,0 +1,537 @@
+
+
+/*media for responsive*/
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .nav-link {
+    
+     padding: 0; 
+}
+.navbar-nav .nav-link {
+  font-size: 12px;
+}
+  .navbar-brand .navbar-text {
+    font-size: 12px;
+    color: white !important;
+}
+.navbar {
+  background-color: black;
+  width: 100vw;
+}
+.ml-3, .mx-3 {
+   margin-left: 0rem!important;
+}
+.mr-3, .mx-3 {
+   margin-right: 0rem!important; 
+}
+
+.navbar-brand img {
+  width: 30px;
+  margin-right: 5px;
+  height: 30px;
+}
+.home {
+  height: 60vh;
+}
+.section {
+  padding: 25px 5vw 0px 5vw;
+}
+.home-content h1 {
+  padding-top: 0vh;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.home-content h3 {
+  font-size: 16px;
+  color: #00abf0;
+}
+.home-content p {
+  font-size: 14px;
+  margin: 17px 0 22px;
+}
+.home-content .btn-box {
+  width: 255px;
+  height: 30px;
+}
+.btn-box a {
+  width: 104px;
+  height: 100%;;
+  font-size: 14px;
+  
+}
+.hp2 {
+  gap: 12vw;
+  font-size: 14px;
+}
+.hp2 i {
+  font-size: 14px;
+  padding: 0 0 0 1vw;
+}
+.home-sci {
+  display: none;
+}
+  .animatedsec{
+    display: none;
+  }
+
+  .text-center {
+    font-size: 1.75rem;
+}
+  .ab2 img {
+    display: none;
+    max-width: 0;
+    height:0;
+}
+
+.ab2 {
+   width: 0; 
+}
+.ab1 p {
+  text-align: justify;
+  padding: 2vh 1vw 2vh 1px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.ab1{
+  width: 98vw;
+}
+.mt-4, .my-4 {
+   margin-top: 0rem!important; 
+}
+.mb-4, .my-4 {
+   margin-bottom: 1rem!important; 
+}
+.value {
+  text-align: start;
+  display: flex;
+}
+.value h1 {
+  font-size: 17px;
+}
+#countdown1, #countdown2, #countdown3, #countdown4 {
+  font-size: 1.5rem;
+}
+.b1a {
+  height: 37vh;
+  width: 40vw;
+}
+.b1 {
+  width: calc(57% - 32px);
+}
+#pa {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 900;
+}
+#red {
+  color: red;
+  font-size: 11px;
+  text-align: justify;
+}
+#bp {
+display: none;
+}
+.link a {
+  font-size: 9px;
+  margin: 1px;
+}
+.cb {
+  gap: 1vw;
+  padding-top: 3vh;
+  display: flex;
+}
+
+.sbox {
+  width: 18vw;
+  height: 108px;
+  padding: 0;
+}
+.sbox h2 {
+  font-size: 12px;
+  color: black;
+  transition: color 0.3s;
+}
+.contact-form {
+  background-color: rgb(45 45 45);
+  max-width: 78vw;
+  margin: 6vh auto 5vh;
+  padding: 30px;
+}
+.form-control {
+  font-size: 14px;
+
+}
+.social-media h1, .cb1 h1, .cb2 h1 {
+  font-size: 22px;
+}
+.social-media a, .cb1 a, .cb2 h2 {
+  font-size: 12px;
+}
+
+.contact-form2 {
+  background-color: #1d1c1c !important;
+  max-width: 78vw;
+  margin: 0vh 5vh;
+  padding: 0px 0 6vh 0px;
+  border: none;
+}
+
+.social-media a{
+  font-size: 12px;
+}
+.footer-left {
+  padding-left: 2vw;
+  font-size: 13px;
+}
+.footer-right a {
+  font-size: 21px;
+}
+.box1s {
+  margin: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #212529;
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+#tabd,#router{
+  display: none;
+}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .nav-link {
+    
+    padding: 0; 
+}
+.navbar-nav .nav-link {
+ font-size: 16px;
+}
+ .navbar-brand .navbar-text {
+   font-size: 16px;
+}
+.navbar {
+ background-color: black;
+ width: 100vw;
+}
+.ml-3, .mx-3 {
+  margin-left: 0rem!important;
+}
+.mr-3, .mx-3 {
+  margin-right: 0rem!important; 
+}
+
+.navbar-brand img {
+ width: 30px;
+ margin-right: 5px;
+ height: 30px;
+}
+.home {
+  height: 42vh;
+}
+.section {
+  padding: 25px 2vw 0px 2vw;
+}
+.home-content h1 {
+ padding-top: 0vh;
+ font-size: 28px;
+ font-weight: 700;
+ line-height: 1.2;
+}
+.home-content h3 {
+ font-size: 16px;
+ color: #00abf0;
+}
+.home-content p {
+ font-size: 16px;
+}
+.home-content .btn-box {
+ height: 44px;
+}
+.btn-box a {
+ width: 104px;
+ height: 100%;;
+ font-size: 14px;
+ 
+}
+.hp2 {
+ font-size: 17px;
+}
+.hp2 i {
+ font-size: 14px;
+ padding: 0 0 0 1vw;
+}
+.home-sci {
+ display: none;
+}
+ .animatedsec{
+   display: none;
+ }
+
+ .text-center {
+   font-size: 1.75rem;
+}
+ .ab2 img {
+   display: none;
+   max-width: 0;
+   height:0;
+}
+
+.ab2 {
+  width: 0; 
+}
+.ab1 p {
+
+  font-size: 16px;
+  color: wheat;
+  line-height: 1.5;
+}
+.ab1{
+ width: 98vw;
+}
+.mt-4, .my-4 {
+  margin-top: 0rem!important; 
+}
+.mb-4, .my-4 {
+  margin-bottom: 1rem!important; 
+}
+.value {
+ text-align: start;
+ display: flex;
+}
+.value h1 {
+ font-size: 23px;
+}
+#countdown1, #countdown2, #countdown3, #countdown4 {
+ font-size: 2.5rem;
+}
+.b1a {
+ height: 37vh;
+ width: 40vw;
+}
+.b1 {
+  width: calc(52% - 27px);
+}
+#pa {
+ text-align: center;
+ font-size: 11px;
+ font-weight: 900;
+}
+#red {
+ color: red;
+ font-size: 11px;
+ text-align: justify;
+}
+#bp {
+display: none;
+}
+.link a {
+ font-size: 9px;
+ margin: 1px;
+}
+.cb {
+ gap: 1vw;
+ padding-top: 3vh;
+ display: flex;
+}
+
+.sbox {
+ width: 18vw;
+ height: 108px;
+ padding: 0;
+}
+.sbox h2 {
+ font-size: 12px;
+ color: black;
+ transition: color 0.3s;
+}
+.contact-form {
+ background-color: rgb(45 45 45);
+ max-width: 78vw;
+ margin: 6vh auto 5vh;
+ padding: 30px;
+}
+.form-control {
+ font-size: 16px;
+
+}
+.social-media h1, .cb1 h1, .cb2 h1 {
+ font-size: 27px;
+}
+.social-media a, .cb1 a, .cb2 h2 {
+ font-size: 16px;
+}
+
+.contact-form2 {
+ background-color: #1d1c1c !important;
+ max-width: 78vw;
+ margin: 0vh 5vh;
+ padding: 0px 0 6vh 0px;
+ border: none;
+}
+
+.social-media a{
+ font-size: 21px;
+}
+.footer-left {
+ padding-left: 2vw;
+ font-size: 16px;
+}
+.footer-right a {
+ font-size: 31px;
+}
+.box1s {
+ margin: 10%;
+ width: 80%;
+ height: 80%;
+ background-color: #212529;
+ border: 4px solid #ccc;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+ box-sizing: border-box;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+}
+#tabd,#router{
+ display: none;
+}
+.imgd img {
+  max-width: 7vw;
+  max-height: 6vh;
+  object-fit: contain;
+  transition: filter 0.3s;
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 1280px) {
+  .link a {
+    font-size: 15px;
+    margin: 2px 14px 0;
+}
+.box1s {
+  margin: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+  .home-content {
+    width: 100vw;
+  }
+  .home-content {
+    max-width: 90vw;
+}
+  .animatedsec {
+    display: none;
+  }
+  .home-content p {
+    font-size: 22px;
+    margin: 20px 0 40px;
+}
+.ab1 p {
+  text-align: justify;
+  padding: 2vh 3vw 2vh 0;
+  font-size: 23px;
+  line-height: 1.5;
+  color: white;
+}
+#countdown1, #countdown2, #countdown3, #countdown4 {
+  font-size: 1.5rem;
+}
+.value h1 {
+  color: white;
+  text-align: start;
+  font-size: 30px;
+}
+.home-sci {
+  position: absolute;
+  bottom: 278px;
+  width: 21vw;
+  display: flex;
+  justify-content: space-between;
+}
+.home {
+  height: 65vh;
+}
+.b1a {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 40vh;
+  width: 27vw;
+}
+
+.section {
+    padding: 35px 1vw 35px 2vw;
+}
+}
+@media (max-width: 1410.98px) {
+
+  .home-content p {
+    font-size: 23px;
+    margin: 20px 0 40px;
+}
+  .home {
+    gap: 0vw;
+}
+.section {
+  padding: 50px 1vw 50px 2vw;
+}
+
+.animatedsec .circle-box {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: rgb(35 34 34);
+  opacity: 0;
+}
+  .b1a {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+     height: 40vh;
+    width: 27vw;
+}
+#bp {
+  text-align: justify;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 0px;
+}
+.link{
+  padding-bottom: 10px;
+}
+.contact-form {
+  background-color: rgb(45 45 45);
+  max-width: 66vw;
+  margin: 7vh auto 4vh;
+  padding: 30px;
+}
+.animatedsec {
+  width: 41vw;
+}
+}
